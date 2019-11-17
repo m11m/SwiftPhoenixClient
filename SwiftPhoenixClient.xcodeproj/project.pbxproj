@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		123223C62357E50200BCA87A /* SwiftPhoenix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123223BC2357E50200BCA87A /* SwiftPhoenix.framework */; };
+		123223C62357E50200BCA87A /* SwiftPhoenixClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123223BC2357E50200BCA87A /* SwiftPhoenixClient.framework */; };
 		123223D92357E5EC00BCA87A /* SwiftPhoenix.h in Headers */ = {isa = PBXBuildFile; fileRef = 123223D72357E5EC00BCA87A /* SwiftPhoenix.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		123223E32357F0E600BCA87A /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123223E22357F0E600BCA87A /* Defaults.swift */; };
 		123223E52357F11100BCA87A /* DefaultsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123223E42357F11100BCA87A /* DefaultsSpec.swift */; };
 		123224162357F3F500BCA87A /* RxSwiftPhoenix.h in Headers */ = {isa = PBXBuildFile; fileRef = 123224152357F3F500BCA87A /* RxSwiftPhoenix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		123224172357F41E00BCA87A /* RxSwiftPhoenix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123223FD2357F37200BCA87A /* RxSwiftPhoenix.framework */; };
+		123224172357F41E00BCA87A /* RxSwiftPhoenixClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123223FD2357F37200BCA87A /* RxSwiftPhoenixClient.framework */; };
 		123224192357F43900BCA87A /* Phoenix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123224182357F43900BCA87A /* Phoenix.swift */; };
 		1232241B2357F49C00BCA87A /* Phoenix+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1232241A2357F49C00BCA87A /* Phoenix+Rx.swift */; };
-		1232241C2357FA1300BCA87A /* SwiftPhoenix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123223BC2357E50200BCA87A /* SwiftPhoenix.framework */; };
+		1232241C2357FA1300BCA87A /* SwiftPhoenixClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123223BC2357E50200BCA87A /* SwiftPhoenixClient.framework */; };
 		123224272357FC8E00BCA87A /* Phoenix+RxSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123224262357FC8E00BCA87A /* Phoenix+RxSpec.swift */; };
 		1288EDFB235805CA00338679 /* Presence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288EDF4235805C900338679 /* Presence.swift */; };
 		1288EDFC235805CA00338679 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288EDF5235805C900338679 /* Channel.swift */; };
@@ -56,14 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		123223BC2357E50200BCA87A /* SwiftPhoenix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPhoenix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		123223C52357E50200BCA87A /* SwiftPhoenixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPhoenixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		123223BC2357E50200BCA87A /* SwiftPhoenixClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPhoenixClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		123223C52357E50200BCA87A /* SwiftPhoenixClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPhoenixClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		123223D72357E5EC00BCA87A /* SwiftPhoenix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftPhoenix.h; sourceTree = "<group>"; };
 		123223D82357E5EC00BCA87A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		123223DD2357ED7100BCA87A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		123223E22357F0E600BCA87A /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 		123223E42357F11100BCA87A /* DefaultsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsSpec.swift; sourceTree = "<group>"; };
-		123223FD2357F37200BCA87A /* RxSwiftPhoenix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftPhoenix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		123223FD2357F37200BCA87A /* RxSwiftPhoenixClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwiftPhoenixClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		123224152357F3F500BCA87A /* RxSwiftPhoenix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxSwiftPhoenix.h; sourceTree = "<group>"; };
 		123224182357F43900BCA87A /* Phoenix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phoenix.swift; sourceTree = "<group>"; };
 		1232241A2357F49C00BCA87A /* Phoenix+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phoenix+Rx.swift"; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				123223C62357E50200BCA87A /* SwiftPhoenix.framework in Frameworks */,
-				123224172357F41E00BCA87A /* RxSwiftPhoenix.framework in Frameworks */,
+				123223C62357E50200BCA87A /* SwiftPhoenixClient.framework in Frameworks */,
+				123224172357F41E00BCA87A /* RxSwiftPhoenixClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1232241C2357FA1300BCA87A /* SwiftPhoenix.framework in Frameworks */,
+				1232241C2357FA1300BCA87A /* SwiftPhoenixClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,9 +130,9 @@
 		123223BD2357E50200BCA87A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				123223BC2357E50200BCA87A /* SwiftPhoenix.framework */,
-				123223C52357E50200BCA87A /* SwiftPhoenixTests.xctest */,
-				123223FD2357F37200BCA87A /* RxSwiftPhoenix.framework */,
+				123223BC2357E50200BCA87A /* SwiftPhoenixClient.framework */,
+				123223C52357E50200BCA87A /* SwiftPhoenixClientTests.xctest */,
+				123223FD2357F37200BCA87A /* RxSwiftPhoenixClient.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,8 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				123223D62357E5EC00BCA87A /* Supporting Files */,
-				123223E12357F0B600BCA87A /* SwiftPhoenix */,
-				123224142357F3E600BCA87A /* RxSwiftPhoenix */,
+				123223E12357F0B600BCA87A /* SwiftPhoenixClient */,
+				123224142357F3E600BCA87A /* RxSwiftPhoenixClient */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 		123223C92357E50200BCA87A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				123224212357FBEE00BCA87A /* SwiftPhoenix */,
-				123224222357FBF600BCA87A /* RxSwiftPhoenix */,
+				123224212357FBEE00BCA87A /* SwiftPhoenixClientTests */,
+				123224222357FBF600BCA87A /* RxSwiftPhoenixClientTests */,
 				1288EE02235805F600338679 /* Helper */,
 				1288EE0A2358070400338679 /* Mock */,
 				1288EE09235806FD00338679 /* Spy */,
@@ -177,7 +177,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		123223E12357F0B600BCA87A /* SwiftPhoenix */ = {
+		123223E12357F0B600BCA87A /* SwiftPhoenixClient */ = {
 			isa = PBXGroup;
 			children = (
 				1288EDF5235805C900338679 /* Channel.swift */,
@@ -190,19 +190,19 @@
 				123223E22357F0E600BCA87A /* Defaults.swift */,
 				123224182357F43900BCA87A /* Phoenix.swift */,
 			);
-			path = SwiftPhoenix;
+			path = SwiftPhoenixClient;
 			sourceTree = "<group>";
 		};
-		123224142357F3E600BCA87A /* RxSwiftPhoenix */ = {
+		123224142357F3E600BCA87A /* RxSwiftPhoenixClient */ = {
 			isa = PBXGroup;
 			children = (
 				1232241A2357F49C00BCA87A /* Phoenix+Rx.swift */,
 				1288EE1B2358094200338679 /* Channel+Rx.swift */,
 			);
-			path = RxSwiftPhoenix;
+			path = RxSwiftPhoenixClient;
 			sourceTree = "<group>";
 		};
-		123224212357FBEE00BCA87A /* SwiftPhoenix */ = {
+		123224212357FBEE00BCA87A /* SwiftPhoenixClientTests */ = {
 			isa = PBXGroup;
 			children = (
 				1288EE15235807CE00338679 /* ChannelSpec.swift */,
@@ -211,16 +211,16 @@
 				1288EE12235807CE00338679 /* TimeoutTimerSpec.swift */,
 				123223E42357F11100BCA87A /* DefaultsSpec.swift */,
 			);
-			path = SwiftPhoenix;
+			path = SwiftPhoenixClientTests;
 			sourceTree = "<group>";
 		};
-		123224222357FBF600BCA87A /* RxSwiftPhoenix */ = {
+		123224222357FBF600BCA87A /* RxSwiftPhoenixClientTests */ = {
 			isa = PBXGroup;
 			children = (
 				123224262357FC8E00BCA87A /* Phoenix+RxSpec.swift */,
 				1288EE1D23580BD000338679 /* ChannelRxSpec.swift */,
 			);
-			path = RxSwiftPhoenix;
+			path = RxSwiftPhoenixClientTests;
 			sourceTree = "<group>";
 		};
 		1288EE02235805F600338679 /* Helper */ = {
@@ -272,9 +272,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		123223BB2357E50200BCA87A /* SwiftPhoenix */ = {
+		123223BB2357E50200BCA87A /* SwiftPhoenixClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 123223D02357E50200BCA87A /* Build configuration list for PBXNativeTarget "SwiftPhoenix" */;
+			buildConfigurationList = 123223D02357E50200BCA87A /* Build configuration list for PBXNativeTarget "SwiftPhoenixClient" */;
 			buildPhases = (
 				123223B72357E50200BCA87A /* Headers */,
 				123223B82357E50200BCA87A /* Sources */,
@@ -285,14 +285,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftPhoenix;
+			name = SwiftPhoenixClient;
 			productName = SwiftPhoenix;
-			productReference = 123223BC2357E50200BCA87A /* SwiftPhoenix.framework */;
+			productReference = 123223BC2357E50200BCA87A /* SwiftPhoenixClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		123223C42357E50200BCA87A /* SwiftPhoenixTests */ = {
+		123223C42357E50200BCA87A /* SwiftPhoenixClientTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 123223D32357E50200BCA87A /* Build configuration list for PBXNativeTarget "SwiftPhoenixTests" */;
+			buildConfigurationList = 123223D32357E50200BCA87A /* Build configuration list for PBXNativeTarget "SwiftPhoenixClientTests" */;
 			buildPhases = (
 				123223C12357E50200BCA87A /* Sources */,
 				123223C32357E50200BCA87A /* Resources */,
@@ -305,14 +305,14 @@
 				123223C82357E50200BCA87A /* PBXTargetDependency */,
 				123224292357FF6100BCA87A /* PBXTargetDependency */,
 			);
-			name = SwiftPhoenixTests;
+			name = SwiftPhoenixClientTests;
 			productName = SwiftPhoenixTests;
-			productReference = 123223C52357E50200BCA87A /* SwiftPhoenixTests.xctest */;
+			productReference = 123223C52357E50200BCA87A /* SwiftPhoenixClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		123223FC2357F37200BCA87A /* RxSwiftPhoenix */ = {
+		123223FC2357F37200BCA87A /* RxSwiftPhoenixClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 123224122357F37300BCA87A /* Build configuration list for PBXNativeTarget "RxSwiftPhoenix" */;
+			buildConfigurationList = 123224122357F37300BCA87A /* Build configuration list for PBXNativeTarget "RxSwiftPhoenixClient" */;
 			buildPhases = (
 				123223F82357F37200BCA87A /* Headers */,
 				123223F92357F37200BCA87A /* Sources */,
@@ -323,9 +323,9 @@
 			);
 			dependencies = (
 			);
-			name = RxSwiftPhoenix;
+			name = RxSwiftPhoenixClient;
 			productName = RxSwiftPhoenix;
-			productReference = 123223FD2357F37200BCA87A /* RxSwiftPhoenix.framework */;
+			productReference = 123223FD2357F37200BCA87A /* RxSwiftPhoenixClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -350,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 123223B62357E50200BCA87A /* Build configuration list for PBXProject "SwiftPhoenix" */;
+			buildConfigurationList = 123223B62357E50200BCA87A /* Build configuration list for PBXProject "SwiftPhoenixClient" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -363,9 +363,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				123223BB2357E50200BCA87A /* SwiftPhoenix */,
-				123223FC2357F37200BCA87A /* RxSwiftPhoenix */,
-				123223C42357E50200BCA87A /* SwiftPhoenixTests */,
+				123223BB2357E50200BCA87A /* SwiftPhoenixClient */,
+				123223FC2357F37200BCA87A /* RxSwiftPhoenixClient */,
+				123223C42357E50200BCA87A /* SwiftPhoenixClientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -471,12 +471,12 @@
 /* Begin PBXTargetDependency section */
 		123223C82357E50200BCA87A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 123223BB2357E50200BCA87A /* SwiftPhoenix */;
+			target = 123223BB2357E50200BCA87A /* SwiftPhoenixClient */;
 			targetProxy = 123223C72357E50200BCA87A /* PBXContainerItemProxy */;
 		};
 		123224292357FF6100BCA87A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 123223FC2357F37200BCA87A /* RxSwiftPhoenix */;
+			target = 123223FC2357F37200BCA87A /* RxSwiftPhoenixClient */;
 			targetProxy = 123224282357FF6100BCA87A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -862,7 +862,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		123223B62357E50200BCA87A /* Build configuration list for PBXProject "SwiftPhoenix" */ = {
+		123223B62357E50200BCA87A /* Build configuration list for PBXProject "SwiftPhoenixClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				123223CE2357E50200BCA87A /* Debug */,
@@ -871,7 +871,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		123223D02357E50200BCA87A /* Build configuration list for PBXNativeTarget "SwiftPhoenix" */ = {
+		123223D02357E50200BCA87A /* Build configuration list for PBXNativeTarget "SwiftPhoenixClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				123223D12357E50200BCA87A /* Debug */,
@@ -880,7 +880,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		123223D32357E50200BCA87A /* Build configuration list for PBXNativeTarget "SwiftPhoenixTests" */ = {
+		123223D32357E50200BCA87A /* Build configuration list for PBXNativeTarget "SwiftPhoenixClientTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				123223D42357E50200BCA87A /* Debug */,
@@ -889,7 +889,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		123224122357F37300BCA87A /* Build configuration list for PBXNativeTarget "RxSwiftPhoenix" */ = {
+		123224122357F37300BCA87A /* Build configuration list for PBXNativeTarget "RxSwiftPhoenixClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1232240E2357F37300BCA87A /* Debug */,

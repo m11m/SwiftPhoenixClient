@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "123223BB2357E50200BCA87A"
-               BuildableName = "SwiftPhoenix.framework"
-               BlueprintName = "SwiftPhoenix"
-               ReferencedContainer = "container:SwiftPhoenix.xcodeproj">
+               BuildableName = "SwiftPhoenixClient.framework"
+               BlueprintName = "SwiftPhoenixClient"
+               ReferencedContainer = "container:SwiftPhoenixClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "123223C42357E50200BCA87A"
-               BuildableName = "SwiftPhoenixTests.xctest"
-               BlueprintName = "SwiftPhoenixTests"
-               ReferencedContainer = "container:SwiftPhoenix.xcodeproj">
+               BuildableName = "SwiftPhoenixClientTests.xctest"
+               BlueprintName = "SwiftPhoenixClientTests"
+               ReferencedContainer = "container:SwiftPhoenixClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "123223C42357E50200BCA87A"
-               BuildableName = "SwiftPhoenixTests.xctest"
-               BlueprintName = "SwiftPhoenixTests"
-               ReferencedContainer = "container:SwiftPhoenix.xcodeproj">
+               BuildableName = "SwiftPhoenixClientTests.xctest"
+               BlueprintName = "SwiftPhoenixClientTests"
+               ReferencedContainer = "container:SwiftPhoenixClient.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "123223BB2357E50200BCA87A"
-            BuildableName = "SwiftPhoenix.framework"
-            BlueprintName = "SwiftPhoenix"
-            ReferencedContainer = "container:SwiftPhoenix.xcodeproj">
+            BuildableName = "SwiftPhoenixClient.framework"
+            BlueprintName = "SwiftPhoenixClient"
+            ReferencedContainer = "container:SwiftPhoenixClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -17,9 +17,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "123223C42357E50200BCA87A"
-               BuildableName = "SwiftPhoenixTests.xctest"
-               BlueprintName = "SwiftPhoenixTests"
-               ReferencedContainer = "container:SwiftPhoenix.xcodeproj">
+               BuildableName = "SwiftPhoenixClientTests.xctest"
+               BlueprintName = "SwiftPhoenixClientTests"
+               ReferencedContainer = "container:SwiftPhoenixClient.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
