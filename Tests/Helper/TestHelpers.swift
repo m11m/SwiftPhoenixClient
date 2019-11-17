@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import SwiftPhoenix
+@testable import SwiftPhoenixClient
 
 enum TestError: Error {
   case stub

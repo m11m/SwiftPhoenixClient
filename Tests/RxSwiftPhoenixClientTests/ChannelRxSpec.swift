@@ -8,8 +8,9 @@
 import Quick
 import Nimble
 import RxSwift
-@testable import SwiftPhoenix
-import RxSwiftPhoenix
+import RxSwiftPhoenixClient
+@testable import SwiftPhoenixClient
+
 
 final class ChannelRxSpec: QuickSpec {
   

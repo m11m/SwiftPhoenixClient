@@ -7,7 +7,7 @@
 
 import Quick
 import Nimble
-@testable import SwiftPhoenix
+@testable import SwiftPhoenixClient
 
 final class DefaultSpec: QuickSpec {
   

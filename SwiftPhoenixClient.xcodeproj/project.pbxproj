@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122000712380EC61007A6C1C /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122000702380EC61007A6C1C /* Starscream.framework */; };
 		123223C62357E50200BCA87A /* SwiftPhoenixClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123223BC2357E50200BCA87A /* SwiftPhoenixClient.framework */; };
 		123223D92357E5EC00BCA87A /* SwiftPhoenix.h in Headers */ = {isa = PBXBuildFile; fileRef = 123223D72357E5EC00BCA87A /* SwiftPhoenix.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		123223E32357F0E600BCA87A /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123223E22357F0E600BCA87A /* Defaults.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		122000702380EC61007A6C1C /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		123223BC2357E50200BCA87A /* SwiftPhoenixClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftPhoenixClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		123223C52357E50200BCA87A /* SwiftPhoenixClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPhoenixClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		123223D72357E5EC00BCA87A /* SwiftPhoenix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftPhoenix.h; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122000712380EC61007A6C1C /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +175,7 @@
 		123223DC2357ED7100BCA87A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				122000702380EC61007A6C1C /* Starscream.framework */,
 				123223DD2357ED7100BCA87A /* Nimble.framework */,
 			);
 			name = Frameworks;
@@ -611,6 +615,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=appletv*]" = (
 					"$(SRCROOT)/Carthage/Build/tvOS/",
 					"$(inherited)",
@@ -657,6 +665,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=appletv*]" = (
 					"$(SRCROOT)/Carthage/Build/tvOS/",
 					"$(inherited)",

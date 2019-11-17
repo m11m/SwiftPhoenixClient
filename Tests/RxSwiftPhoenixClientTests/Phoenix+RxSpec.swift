@@ -9,8 +9,8 @@ import Quick
 import Nimble
 import RxSwift
 import RxTest
-import SwiftPhoenix
-@testable import RxSwiftPhoenix
+import SwiftPhoenixClient
+@testable import RxSwiftPhoenixClient
 
 final class PhoenixRxSpec: QuickSpec {
   

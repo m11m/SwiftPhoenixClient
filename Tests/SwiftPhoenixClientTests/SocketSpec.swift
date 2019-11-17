@@ -8,7 +8,7 @@
 import Quick
 import Nimble
 import Starscream
-@testable import SwiftPhoenix
+@testable import SwiftPhoenixClient
 
 class SocketSpec: QuickSpec {
   
@@ -310,9 +310,13 @@ class SocketSpec: QuickSpec {
       
       it("invalidates and releases the heartbeat timer", closure: {
         var timerCalled = 0
-        let timer = Timer.scheduledTimer(withTimeInterval: 10, repeats: false, block: { (_) in
-          timerCalled += 1
-        })
+        var timer = Timer()
+        
+        if #available(OSX 10.12, *) {
+          timer = Timer.scheduledTimer(withTimeInterval: 10, repeats: false, block: { (_) in
+            timerCalled += 1
+          })
+        }
         
         socket.heartbeatTimer = timer
         
@@ -644,7 +648,11 @@ class SocketSpec: QuickSpec {
       it("should invalidate an old timer and create a new one", closure: {
         mockWebSocket.isConnected = true
         
-        let timer = Timer.scheduledTimer(withTimeInterval: 1000, repeats: true) { (_) in  }
+        var timer = Timer()
+        if #available(OSX 10.12, *) {
+          timer = Timer.scheduledTimer(withTimeInterval: 10, repeats: false, block: { (_) in })
+        }
+        
         socket.heartbeatTimer = timer
         
         expect(timer.isValid).to(beTrue())

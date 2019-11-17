@@ -5,7 +5,7 @@
 // swiftlint:disable variable_name
 
 import Starscream
-@testable import SwiftPhoenix
+@testable import SwiftPhoenixClient
 
 
 

@@ -8,7 +8,7 @@
 import Quick
 import Nimble
 import Starscream
-@testable import SwiftPhoenix
+@testable import SwiftPhoenixClient
 
 
 class ChannelSpec: QuickSpec {

@@ -19,6 +19,7 @@
 // THE SOFTWARE.
 
 
+import Foundation
 import Starscream
 
 
@@ -630,7 +631,7 @@ public class Socket {
     guard !skipHeartbeat else { return }
     
     // Start the timer based on the correct iOS version
-    if #available(iOS 10.0, *) {
+    if #available(iOS 10.0, OSX 10.12, tvOS 10.0, *) {
       self.heartbeatTimer
         = Timer.scheduledTimer(withTimeInterval: heartbeatInterval,
                                repeats: true) { _ in self.sendHeartbeat() }

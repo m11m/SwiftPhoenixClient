@@ -7,7 +7,7 @@
 
 import Foundation
 import RxSwift
-import SwiftPhoenix
+import SwiftPhoenixClient
 
 extension Channel: ReactiveCompatible { }
 

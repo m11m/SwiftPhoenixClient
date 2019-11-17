@@ -5,7 +5,7 @@
 //  Created by Daniel Rees on 9/3/19.
 //
 
-@testable import SwiftPhoenix
+@testable import SwiftPhoenixClient
 
 class SocketSpy: Socket {
   
